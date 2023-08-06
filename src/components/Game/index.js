@@ -5,7 +5,7 @@ import ResultCardItem from '../ResultCardItem'
 import ReactPopUp from '../ReactPopUp'
 import {
   Score,
-  TriggerButton2,
+  PlayAgainButton,
   SubCard,
   Para,
   ButtonCard2,
@@ -73,7 +73,7 @@ class Game extends Component {
       <ButtonCard2>
         <ResultCard>
           <Paragraph>YOU</Paragraph>
-          <ResultCardItem item={user} alt="your choice" />
+          <ResultCardItem item={user} />
         </ResultCard>
         <ResultCard>
           <Paragraph>OPPONENT</Paragraph>
@@ -81,7 +81,7 @@ class Game extends Component {
         </ResultCard>
       </ButtonCard2>
       <Paragraph>{result}</Paragraph>
-      <TriggerButton2 onClick={this.replay}>PLAY AGAIN</TriggerButton2>
+      <PlayAgainButton onClick={this.replay}>PLAY AGAIN</PlayAgainButton>
     </>
   )
 

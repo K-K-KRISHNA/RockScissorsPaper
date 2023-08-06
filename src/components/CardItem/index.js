@@ -8,8 +8,8 @@ const CardItem = props => {
     onUserClick(item)
   }
   return (
-    <Button data-testid={testid}>
-      <Card src={imageUrl} alt={id} onClick={tempClick} />
+    <Button data-testid={testid} onClick={tempClick}>
+      <Card src={imageUrl} alt={id} />
     </Button>
   )
 }

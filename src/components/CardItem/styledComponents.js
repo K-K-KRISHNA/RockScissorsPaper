@@ -8,4 +8,5 @@ export const Card = styled.img`
 export const Button = styled.button`
   background-color: transparent;
   border-width: 0px;
+  cursor: pointer;
 `

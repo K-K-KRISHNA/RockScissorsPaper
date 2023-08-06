@@ -92,7 +92,7 @@ export const CardItem = styled.img`
   width: 150px;
   margin: 10px;
 `
-export const TriggerButton2 = styled.button`
+export const PlayAgainButton = styled.button`
   font-size: 16px;
   font-weight: 400px;
   font-family: 'Roboto';
@@ -101,5 +101,6 @@ export const TriggerButton2 = styled.button`
   background-color: white;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
   outline: none;
 `
