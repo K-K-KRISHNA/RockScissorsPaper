@@ -53,6 +53,7 @@ export const Score = styled.div`
 `
 export const Para = styled.p`
   color: black;
+  font-family: 'Roboto';
 `
 export const Paragraph = styled.p`
   color: white;

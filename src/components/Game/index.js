@@ -73,11 +73,11 @@ class Game extends Component {
       <ButtonCard2>
         <ResultCard>
           <Paragraph>YOU</Paragraph>
-          <ResultCardItem item={user} />
+          <ResultCardItem item={user} altText="your choice" />
         </ResultCard>
         <ResultCard>
           <Paragraph>OPPONENT</Paragraph>
-          <ResultCardItem item={ai} alt="opponent choice" />
+          <ResultCardItem item={ai} altText="opponent choice" />
         </ResultCard>
       </ButtonCard2>
       <Paragraph>{result}</Paragraph>
